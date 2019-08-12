@@ -1,0 +1,17 @@
+/* 这个文件主要用来引入字体文件 */
+@font-face {
+    font-family: ExtraLight;
+    src:"https://cdn.jumihc.com/static/unzip_WechatMiniProgram/fonts/PingFangExtraLight.ttf";
+    // src:"/static/fonts/PingFangExtraLight.ttf";
+}
+@font-face {
+    font-family: PingFang;
+    src:"https://cdn.jumihc.com/static/unzip_WechatMiniProgram/fonts/PingFang-SC-Regular.ttf";
+    // src:"/static/fonts/PingFang-SC-Regular.ttf";
+}
+.pf-light{
+    font-family: ExtraLight;
+}
+.pf {
+    font-family: PingFang;
+}

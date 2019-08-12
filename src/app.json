@@ -1,0 +1,79 @@
+{
+  "pages": [
+
+    "pages/home/main",
+    "pages/case/main",
+    "pages/jumihc/main",
+    "pages/news/main",
+    "pages/cantact/main",
+    
+    "pages/businessShopping/main",
+    "pages/businessBeauty/main",
+    
+    "pages/businessPlane/main",
+    "pages/businessH5/main",
+    "pages/businessUi/main",
+    "pages/businessWeb/main",
+    "pages/businessWpg/main",
+    "pages/businessApp/main",
+    "pages/businessWxgame/main",
+    "pages/businessPublic/main",
+    "pages/businessH5game/main",
+
+    "pages/newsAuthor/main",
+    "pages/newsDetail/main",
+
+    "pages/jumiDetail/main",
+    "pages/jumiElegant/main",
+    "pages/jumiTeam/main",
+
+    "pages/casesDetail/main",
+    "pages/website/main"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#28292C",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "white",
+    "enablePullDownRefresh": false
+  },
+  "tabBar": {
+    "color": "#666",
+    "backgroundColor": "#fff",
+    "selectedColor": "#356969",
+    "borderStyle": "white",
+    "list": [
+      {
+        "text": "首页",
+        "pagePath": "pages/home/main",
+        "iconPath": "static/tabs/home.png",
+        "selectedIconPath": "static/tabs/home-active.png"
+      },
+      {
+        "text": "合作案例",
+        "pagePath": "pages/case/main",
+        "iconPath": "static/tabs/case.png",
+        "selectedIconPath": "static/tabs/case-active.png"
+      },
+      {
+        "text": "聚米互创",
+        "pagePath": "pages/jumihc/main",
+        "iconPath": "static/tabs/jumihc.png",
+        "selectedIconPath": "static/tabs/jumihc.png"
+      },
+      {
+        "text": "聚米学院",
+        "pagePath": "pages/news/main",
+        "iconPath": "static/tabs/news.png",
+        "selectedIconPath": "static/tabs/news-active.png"
+      },
+      {
+        "text": "联系我们",
+        "pagePath": "pages/cantact/main",
+        "iconPath": "static/tabs/cantact.png",
+        "selectedIconPath": "static/tabs/cantact-active.png"
+      }
+    ],
+    "position": "bottom"
+  }
+}
